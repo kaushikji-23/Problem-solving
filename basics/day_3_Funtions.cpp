@@ -1,20 +1,16 @@
-#include <iostream>
+// GFG Problem  - Sum of first n natural numbers
+# include <iostream>
 using namespace std;
-// Functions :- 
-// Sum :- 
-// Return type 
-// Funtion name
-// Input type
-int number(int n)
-{
-    // body
-    int result  = 2*n;
-    return result;
+
+int sum(int n) {
+    return n*(n+1)/2;
 }
+
 int main()
 {
-    int m  = 10;
-    int result  = number(m);
-    cout<<result<<endl;
-    return 0;
+    int n;
+    cout<< "Enter a number:";
+    cin>>n;
+
+    cout<<"Sum of first"<<n<<"natural numbers is:"<<sum(n); 
 }
