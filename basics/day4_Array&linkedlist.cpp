@@ -1,1 +1,2 @@
 // we cover array and linked list  problems in this file :- 
+// array is a data structure that stores elements in contiguous memory locations. It allows for efficient access to elements using an index. However, arrays have a fixed size, which means that once they are created, their size cannot be changed. This can lead to issues such as memory wastage if the array is too large or insufficient space if the array is too small.
